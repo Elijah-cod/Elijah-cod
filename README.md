@@ -1,41 +1,34 @@
-# Hey, I'm Elijah Mathai 👋
+# Elijah Mathai
 
-Full Stack Software Developer. I build web applications end to end — from clean, responsive frontends to server-side logic and database-backed APIs. I care about writing code that is readable, maintainable, and actually solves problems.
+Software engineer building full-stack systems, data-intensive applications, and Python APIs. My recent work spans hybrid retrieval, graph-backed search, accessible component architecture, and production-oriented web applications.
 
-Most of my time is spent in **JavaScript/TypeScript, React, and Node.js**, with a growing focus on backend architecture and systems thinking. I enjoy working across the stack and understanding how all the pieces fit together.
+I am particularly interested in the engineering behind machine learning systems: reliable ingestion, retrieval and evaluation pipelines, data infrastructure, and the interfaces that make technical systems usable. I am also developing deeper work in quantitative computing and reinforcement learning.
 
-Reach me at: *[LinkedIn](https://www.linkedin.com/in/elijah-mathai-52b69725b/)*
+## Featured Projects
 
----
+| Project | Engineering focus |
+| --- | --- |
+| [InsightGraph](https://github.com/Elijah-cod/hybrid-rag-engine) | Hybrid RAG system combining pgvector similarity search, Neo4j graph traversal, Gemini-based extraction and synthesis, document ingestion, and a visual knowledge map. Includes deterministic mock AI for local exploration. |
+| [Anatomy UI](https://github.com/Elijah-cod/Anatomy-UI) | Headless React primitives with keyboard interaction, focus management, ARIA contracts, Storybook documentation, and Vitest/Testing Library coverage. |
+| [SaaS Management Tool](https://github.com/Elijah-cod/SaaS-Management-Tool) | Full-stack project operations platform using Next.js, Express, Prisma, and PostgreSQL, with authenticated APIs, role-based authorization, validation, and integration tests. |
+| [LiftLog](https://github.com/Elijah-cod/liftlog) | Mobile-first workout logger with recoverable local drafts, autosave and retry states, Supabase persistence, row-level security, and mock/live runtime modes. |
+| [Anime Tracker](https://github.com/Elijah-cod/anime-tracker) | Next.js and FastAPI application with PostgreSQL persistence, SQLAlchemy models, AniList GraphQL discovery, and MyAnimeList imports through Jikan. |
+| [CrypDash](https://github.com/Elijah-cod/Real-Time-Financial-Dashboard) | Cryptocurrency market dashboard using CoinGecko data, Firebase authentication and watchlist sync, with an offline-friendly local preview mode. |
 
 ## Tech Stack
 
-### Frontend
+- **Languages:** Python, TypeScript, JavaScript, SQL, HTML/CSS
+- **Application development:** Next.js, React, FastAPI, Flask, Express, REST, GraphQL
+- **Data systems:** PostgreSQL, Supabase, pgvector, Neo4j, Prisma, SQLAlchemy, Firebase
+- **Quality and delivery:** Git, GitHub Actions, Vitest, Pytest, Testing Library, Storybook, Vercel
 
-React · JavaScript · TypeScript · HTML · CSS · Tailwind CSS · Vite
+## Current Interests
 
-### Backend
+- Retrieval systems, knowledge graphs, and evaluation for AI applications
+- Quantitative research infrastructure, market data, and reproducible backtesting
+- Reinforcement learning, sequential decision-making, and experiment design
+- Backend architecture, observability, testing, and dependable developer tooling
 
-Node.js · Express · REST APIs · Python
+## Contact
 
-### CMS & Platforms
-
-WordPress · PHP
-
-### Tools
-
-Git · GitHub · Figma · VS Code
-
----
-
-## How I Work
-
-I approach every project by understanding the problem before touching the code. I prefer simple, deliberate solutions over clever ones — code that the next developer (or future me) can pick up without a manual. I'm comfortable moving between frontend and backend, and I try to own features end to end rather than work in isolation on one layer.
-
-Collaboration, clear communication, and shipping things that actually work matter more to me than the tools used to build them.
-
----
-
-## Fun Fact
-
-> "First, solve the problem. Then, write the code." — John Johnson
+[Portfolio](https://elijahmathai.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/elijah-mathai-52b69725b/) · [GitHub](https://github.com/Elijah-cod)
