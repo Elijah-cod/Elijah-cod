@@ -1,0 +1,43 @@
+name: Generate contribution snake
+
+on:
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/generate-contribution-snake.yml"
+      - "README.md"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: contribution-snake
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    name: Render Nairobi Circuit
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Generate light and dark contribution trails
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/elijah-contribution-snake.svg?color_snake=#ef4444&color_dots=#f1f5f9,#bbf7d0,#4ade80,#16a34a,#14532d
+            dist/elijah-contribution-snake-dark.svg?color_snake=#f87171&color_dots=#0f172a,#052e16,#166534,#22c55e,#86efac
+
+      - name: Publish generated SVGs to the output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+          keep_history: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

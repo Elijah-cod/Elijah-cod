@@ -4,6 +4,18 @@ Software engineer building full-stack systems, data-intensive applications, and 
 
 I am particularly interested in the engineering behind machine learning systems: reliable ingestion, retrieval and evaluation pipelines, data infrastructure, and the interfaces that make technical systems usable. I am also developing deeper work in quantitative computing and reinforcement learning.
 
+## Contribution Trail
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Elijah-cod/Elijah-cod/output/elijah-contribution-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Elijah-cod/Elijah-cod/output/elijah-contribution-snake.svg">
+    <img alt="Elijah Mathai's animated GitHub contribution trail" src="https://raw.githubusercontent.com/Elijah-cod/Elijah-cod/output/elijah-contribution-snake.svg">
+  </picture>
+</p>
+
+<p align="center"><sub>Nairobi Circuit — generated from my contribution graph and refreshed daily.</sub></p>
+
 ## Featured Projects
 
 | Project | Engineering focus |
