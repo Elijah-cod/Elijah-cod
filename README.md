@@ -14,8 +14,6 @@ I am particularly interested in the engineering behind machine learning systems:
   </picture>
 </p>
 
-<p align="center"><sub>Nairobi Circuit — generated from my contribution graph and refreshed daily.</sub></p>
-
 ## Featured Projects
 
 | Project | Engineering focus |
